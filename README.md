@@ -41,6 +41,28 @@ A typical ReactJS program constitutes:
 - States
 - Functions
 
+## What is a React Component?
+Javascript function/class that represents a piece of a webpage. To build a page, we call these functions/classes in a certain order, put the result together, and show it to the user.
+
+### Function component
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20component%201.png?raw=true" alt="Function component example 1">
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20component%202.png?raw=true" alt="Function component example 2">
 
 
+
+### Class component
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Class%20component.png?raw=true" alt="Function component example 1">
+
+If we call the OurFirstComponent() function we’ll get back a bit of JSX. We can use something called ReactDOM.render(Component,locationForComponent) to put it on the page.
+
+
+### Input example
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/ReactDOM.render%20example.png?raw=true" alt="ReactDOM.render() example">
+
+### Output example
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/ReactDOM.render%20test%20result.png?raw=true" alt="ReactDOM.render() result">
+
+
+### When to use Function or Class component
+The main difference between Function or Class is that Classes have more features, like state, lifecycle, handling events, etc. You will learn about them soon
 
