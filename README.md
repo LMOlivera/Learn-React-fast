@@ -6,7 +6,17 @@ Are you an impatient student like me? This is the React tutorial for you.
 - [Before we start](#Before)
   - [Tools](#Tools)
 - [Introduction](#Introduction)
-
+  - [Virtual DOM](#VirtualDOM)
+  - [JSX](#JSX)
+- [Basic](#Basic)
+  - [What is a React Component?](#ReactComponent)
+  - [Function component](#FunctionComponent)
+  - [Class component](#ClassComponent)
+  - [Input example](#InputExample)
+  - [Output example](#OutputExample)
+  - [When to use Function or Class component](#WhenFunctionClass)
+- [Props](#Props)
+  
 
 # <a name="Before">Before we start...</a>
 I’m writing this because of two reasons: The first is to ensure I know React so well that I can write a tutorial. The second is that I consider most tutorials to be very slow and I like going fast and straight to action, so here you will see little text just to know what is going on. Because of this I will mention some features I will not be using because I consider them unnecesary, if you want you can research them on your own.
@@ -25,7 +35,7 @@ React is fairly easy to understand and at this moment has an excellent reputatio
 **Note:** Represents View in Model-View-Controller architectural pattern, that means you will need more tools in the future to cover the Model and Controller part.
 
 
-### Virtual DOM
+### <a name="VirtualDOM">Virtual DOM</a>
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/DOM%20and%20Virtual%20DOM.png?raw=true" alt="DOM and Virtual DOM comparison">
 
 Consider a page displaying a list containing 10 items and one is getting updated. DOM will rebuild the entire list making it work 10 times more than what is necessary.
@@ -33,7 +43,7 @@ Consider a page displaying a list containing 10 items and one is getting updated
 Virtual DOM is an abstract, lightweight copy of DOM. It can be changed as and when we want and then can be saved to the real DOM. Whenever a change occurs, Virtual DOM efficiently rerenders the DOM. It is much faster than DOM. It has the same properties as a real DOM object.
 
 
-### JSX
+### <a name="JSX">JSX</a>
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/JSX%20example%201.png?raw=true" alt="JSX Example 1">
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/JSX%20example%202.png?raw=true" alt="JSX Example 2">
 
@@ -44,7 +54,7 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 **Note**: You can use Javascript inside HTML (JSX) writing {code} (example in second picture).
 
 
-# Basic
+# <a name="Basic">Basic</a>
 Building Blocks of ReactJS
 A typical ReactJS program constitutes:
 - Components (Next section!).
@@ -56,35 +66,35 @@ A typical ReactJS program constitutes:
 - Functions
 
 
-### What is a React Component?
+### <a name="ReactComponent">What is a React Component?</a>
 Javascript function/class that represents a piece of a webpage. To build a page, we call these functions/classes in a certain order, put the result together, and show it to the user.
 
 
-##### Function component
+##### <a name="FunctionComponent">Function component</a>
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20component%201.png?raw=true" alt="Function component example 1">
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20component%202.png?raw=true" alt="Function component example 2">
 
 
-##### Class component
+##### <a name="ClassComponent">Class component</a>
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Class%20component.png?raw=true" alt="Function component example 1">
 
 If we call the OurFirstComponent() function we’ll get back a bit of JSX. We can use something called ReactDOM.render(Component,locationForComponent) to put it on the page.
 
 
-##### Input example
+##### <a name="InputExample">Input example</a>
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/ReactDOM.render%20example.png?raw=true" alt="ReactDOM.render() example">
 
 
-##### Output example
+##### <a name="OutputExample">Output example</a>
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/ReactDOM.render%20test%20result.png?raw=true" alt="ReactDOM.render() result">
 
 
-##### When to use Function or Class component
-The main difference between Function or Class is that Classes have more features, like state, lifecycle, handling events, etc. You will learn about them soon
+##### <a name="WhenFunctionClass">When to use Function or Class component</a>
+The main difference between Function or Class is that Classes have more features, like state, lifecycle, handling events, etc. You will learn about them soon.
 
 
-### Props
-Next topic
+### <a name="Props">Props</a>
+Inputs accepted by components.
 
 
 
