@@ -20,7 +20,8 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Working in a function](#PropFunction)
     - [Working in a class](#PropClass)
     - [Result](#PropResult)
-    
+- [Some things to have in mind](#Things)
+
 
 # <a name="Before">Before we start...</a>
 I’m writing this because of **two reasons**:
@@ -118,4 +119,25 @@ Inputs accepted by components.
 ##### <a name="PropResult">Result</a>
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Prop%20output%20example.png?raw=true" alt="Prop output example">
 
+
+
+
+
+# <a name="Things">Some things to have in mind</a>
+- It is consider a bad practice to change a Parents state from Child. Try to think how will you manage Parents and Childs before programming, it will save you a lot of time.
+  - However, you can do this by binding a Parent function to the Child.
+- Keep in mind you can style components in four ways:
+
+  - You can give JSX a className (you can't use "class" because it is not HTML, it's JSX) to select it from CSS:
+  <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Stylesheet.png?raw=true" alt="Styling by Stylesheet">
+  
+  - Inline styling:
+  <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Inline%20styling.png?raw=true" alt="Styling by inline-styling">
+  
+  - CSS Modules:
+  <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Modules.png?raw=true" alt="Styling by inline-styling">
+  
+  - Styled components:
+  <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Styled-components.png?raw=true" alt="Styling by styled components">
+  
 
