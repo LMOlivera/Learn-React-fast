@@ -1,5 +1,5 @@
 # Learn-React-fast
-Are you an impatient learner like me? This is the React tutorial for you.
+Are you an impatient student like me? This is the React tutorial for you.
 
 # Index
 - [Before we start](#Before)
