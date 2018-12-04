@@ -17,7 +17,10 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Output example](#OutputExample)
     - [When to use Function or Class component](#WhenFunctionClass)
   - [Props](#Props)
-  
+    - [Working in a function](#PropFunction)
+    - [Working in a class](#PropClass)
+    - [Result](#PropResult)
+    
 
 # <a name="Before">Before we start...</a>
 I’m writing this because of **two reasons**:
