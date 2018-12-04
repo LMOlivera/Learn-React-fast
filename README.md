@@ -30,4 +30,17 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 
 **Note**: You can use Javascript inside HTML (JSX) writing {code} (Second picture).
 
+# Basic
+Building Blocks of ReactJS
+A typical ReactJS program constitutes:
+- Components (Next section!).
+- Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the official document they talk more about them, but I consider them a waste of time so I’m not gonna cover them.
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
+
+- Props
+- States
+- Functions
+
+
+
 
