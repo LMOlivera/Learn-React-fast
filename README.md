@@ -4,22 +4,30 @@ Are you an impatient student like me? This is the React tutorial for you.
 
 # Index
 - [Before we start](#Before)
+  - [You should know...](#Know)
   - [Tools](#Tools)
 - [Introduction](#Introduction)
   - [Virtual DOM](#VirtualDOM)
   - [JSX](#JSX)
 - [Basic](#Basic)
   - [What is a React Component?](#ReactComponent)
-  - [Function component](#FunctionComponent)
-  - [Class component](#ClassComponent)
-  - [Input example](#InputExample)
-  - [Output example](#OutputExample)
-  - [When to use Function or Class component](#WhenFunctionClass)
-- [Props](#Props)
+    - [Function component](#FunctionComponent)
+    - [Class component](#ClassComponent)
+    - [Input example](#InputExample)
+    - [Output example](#OutputExample)
+    - [When to use Function or Class component](#WhenFunctionClass)
+  - [Props](#Props)
   
 
 # <a name="Before">Before we start...</a>
-I’m writing this because of two reasons: The first is to ensure I know React so well that I can write a tutorial. The second is that I consider most tutorials to be very slow and I like going fast and straight to action, so here you will see little text just to know what is going on. Because of this I will mention some features I will not be using because I consider them unnecesary, if you want you can research them on your own.
+I’m writing this because of **two reasons**:
+1. The first is to ensure I know React so well that I can write a tutorial.
+2. I consider most tutorials to be very slow and I like going fast and straight to action, so here you will see little text just to know what is going on. Because of this I will mention some features I will not be using because I consider them unnecesary, if you want you can research them on your own.
+
+
+### <a name="Know">You should know...</a>
+I assume you already know basic HTML and CSS, and have a good knowledge of Javascript. If you don't, I recommend you study and learn those first because you will not understand this **fast** tutorial.
+
 
 ### <a name="Tools">Tools</a>
 - [codepen.io](https://codepen.io/LeWanderer/pen/rqBPqO): Codepen allows you to write HTML, CSS and Javascript while seeing the results. Here is the link for a React.js template I made, just fork it and work on your own while reading this tutorial C:
@@ -96,6 +104,15 @@ The main difference between Function or Class is that Classes have more features
 ### <a name="Props">Props</a>
 Inputs accepted by components.
 
+##### <a name="PropFunction">Working in a function</a>
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20prop%20example.png?raw=true" alt="Function prop example">
 
+
+##### <a name="PropClass">Working in a class</a>
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Class%20prop%20example.png?raw=true" alt="Class prop example">
+
+
+##### <a name="PropResult">Result</a>
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Prop%20output%20example.png?raw=true" alt="Prop output example">
 
 
