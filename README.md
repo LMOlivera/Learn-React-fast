@@ -66,3 +66,9 @@ If we call the OurFirstComponent() function we’ll get back a bit of JSX. We ca
 ### When to use Function or Class component
 The main difference between Function or Class is that Classes have more features, like state, lifecycle, handling events, etc. You will learn about them soon
 
+## Props
+Next topic
+
+
+
+
