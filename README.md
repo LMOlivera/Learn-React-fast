@@ -41,7 +41,7 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `However, because JSX is not valid JavaScript, JSX code must be compiled into JavaScript. The transpiler Babel is a popular tool for this process.` 
 
-**Note**: You can use Javascript inside HTML (JSX) writing {code} (Second picture).
+**Note**: You can use Javascript inside HTML (JSX) writing {code} (example in second picture).
 
 
 # Basic
