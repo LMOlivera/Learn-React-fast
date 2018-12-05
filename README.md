@@ -62,7 +62,6 @@ React is fairly easy to understand and at this moment has an excellent reputatio
 </p>
 
 
-
 Consider a page displaying a list containing 10 items and one is getting updated. DOM will rebuild the entire list making it work 10 times more than what is necessary.
 
 Virtual DOM is an abstract, lightweight copy of DOM. It can be changed as and when we want and then can be saved to the real DOM. Whenever a change occurs, Virtual DOM efficiently rerenders the DOM. It is much faster than DOM. It has the same properties as a real DOM object.
@@ -92,7 +91,9 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 
 
 # <a name="Basic">Basic</a>
-Building Blocks of ReactJS
+
+### Building Blocks of ReactJS
+
 A typical ReactJS program constitutes:
 - Components (Next section!).
 - Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the official documentation they talk more about them, but I consider them a waste of time so I’m not gonna cover them.
@@ -188,7 +189,7 @@ You can see an excelent example of lifecycle in [this pen](https://codepen.io/ga
 
 
 # <a name="Things">Some things to have in mind</a>
-- It is consider a bad practice to change a Parents state from Child. Try to think how will you manage Parents and Childs before programming, it will save you a lot of time.
+- It is consider a bad practice to change a Parents state from Child. Try to think how to manage Parents and Childs before programming, it will save you a lot of time.
   - However, you can do this by binding a Parent function to the Child.
 - Keep in mind you can style components in four ways:
 
