@@ -1,6 +1,10 @@
 # Learn-React-fast
 Are you an impatient student like me? This is the React tutorial for you.
 
+<p align="center">
+  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/reactjs.png?raw=true" alt="Google components">
+</p>
+
 
 # Index
 - [Before we start](#Before)
