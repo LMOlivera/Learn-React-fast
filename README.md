@@ -21,6 +21,7 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Working in a class](#PropClass)
     - [Result](#PropResult)
   - [State](#State)
+  - [Lifecycle](#Lifecycle)
 - [Some things to have in mind](#Things)
 
 
@@ -36,6 +37,7 @@ I assume you already know basic HTML and CSS, and have a good knowledge of Javas
 
 ### <a name="Tools">Tools</a>
 - [codepen.io](https://codepen.io/LeWanderer/pen/rqBPqO): Codepen allows you to write HTML, CSS and Javascript while seeing the results. Here is the link for a React.js template I made, just fork it and work on your own while reading this tutorial C:
+- [React CDN](https://reactjs.org/docs/cdn-links.html): You can use React through it's CDN.
 
 
 # <a name="Introduction">Introduction</a>
@@ -84,8 +86,8 @@ A typical ReactJS program constitutes:
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
 
 - Props
-- States
-- Functions
+- State
+- Lifecycle
 
 
 ### <a name="ReactComponent">What is a React Component?</a>
@@ -138,6 +140,12 @@ State is similar to props, but it is private and fully controlled by the compone
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20output.png?raw=true" alt="Component with state output">
 
 
+
+### <a name="Lifecycle">Lifecycle</a>
+You can see an excelent example of lifecycle in [this pen](https://codepen.io/gaearon/pen/amqdNA?editors=0010). There are **two** important methods in every React Component: componentDidMount() and componentWillUnmount(). 
+
+- componentDidMount(): When the component is rendered on the website this method is triggered. In the example it creates a setInterval for tick().
+- componentWillUnmount(): If for some reason the component is removed from the DOM, this method will be triggered. In the example clears the interval created by componentDidMount().
 
 
 # <a name="Things">Some things to have in mind</a>
