@@ -135,6 +135,8 @@ State is similar to props, but it is private and fully controlled by the compone
 
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20example.png?raw=true" alt="Component with state example">
 
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20output.png?raw=true" alt="Component with state output">
+
 
 
 
@@ -151,7 +153,7 @@ State is similar to props, but it is private and fully controlled by the compone
   
   - CSS Modules:
   <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Modules.png?raw=true" alt="Styling by inline-styling">
-  
+ 
   - Styled components:
   <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Styled-components.png?raw=true" alt="Styling by styled components">
   
