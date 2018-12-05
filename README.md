@@ -29,7 +29,6 @@ Are you an impatient student like me? This is the React tutorial for you.
   - [Lifecycle](#Lifecycle)
 - [Some things to have in mind](#Things)
 
-
 # <a name="Before">Before we start...</a>
 I’m writing this because of **two reasons**:
 1. The first is to ensure I know React so well that I can write a tutorial.
@@ -99,16 +98,16 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 ### Building Blocks of ReactJS
 
 A typical ReactJS program constitutes:
-- Components (Next section!).
+- [Components](#ReactComponent).
 - Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the official documentation they talk more about them, but I consider them a waste of time so I’m not gonna cover them.
 
 <p align="center">
   <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
 </p>
 
-- Props
-- State
-- Lifecycle
+- [Props](#Props).
+- [State](#State).
+- [Lifecycle](#Lifecycle).
 
 
 ### <a name="ReactComponent">What is a React Component?</a>
