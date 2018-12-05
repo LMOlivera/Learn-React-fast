@@ -21,8 +21,8 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Working in a class](#PropClass)
     - [Result](#PropResult)
   - [State](#State)
-  - [Lifecycle](#Lifecycle)
     - [Change the state](#ChangeState)
+  - [Lifecycle](#Lifecycle)
 - [Some things to have in mind](#Things)
 
 
