@@ -73,9 +73,7 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Self-enclosing%20tags%20output.png?raw=true" alt="Self-enclosing tag output">
 
 
-
-
-**Note**: You can use Javascript inside HTML (JSX) writing {code} (example in second picture).
+**Note**: You can use Javascript inside HTML (JSX) writing {code} (example in second picture). If you don't understand the code above please don't panic and come back in a few minutes.
 
 
 # <a name="Basic">Basic</a>
