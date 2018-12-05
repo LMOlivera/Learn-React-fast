@@ -28,6 +28,8 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Change the state](#ChangeState)
   - [Lifecycle](#Lifecycle)
 - [Some things to have in mind](#Things)
+- [Extra information](#ExtraInfo)
+
 
 # <a name="Before">Before we start...</a>
 I’m writing this because of **two reasons**:
@@ -99,12 +101,7 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 
 A typical ReactJS program constitutes:
 - [Components](#ReactComponent).
-- Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the official documentation they talk more about them, but I consider them a waste of time so I’m not gonna cover them.
-
-<p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
-</p>
-
+- 
 - [Props](#Props).
 - [State](#State).
 - [Lifecycle](#Lifecycle).
@@ -215,3 +212,16 @@ You can see an excelent example of lifecycle in [this pen](https://codepen.io/ga
   <p align="center">
     <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Styled-components.png?raw=true" alt="Styling by styled components">
   </p>
+
+
+# <a name="ExtraInfo">Extra information</a>
+If you are here it means there are some concepts you probably don't know. I don't want you to waste time searching them, so here they are.
+
+- Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the [official documentation](https://reactjs.org/docs/rendering-elements.html) they talk more about them, but I consider it is a waste of time because you will be using **Class Components** most of the time.
+<p align="center">
+  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
+</p>
+
+
+
+
