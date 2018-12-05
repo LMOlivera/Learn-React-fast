@@ -4,7 +4,7 @@ Are you an impatient student like me? This is the React tutorial for you.
 
 # Index
 - [Before we start](#Before)
-  - [You should know...](#Know)
+  - [Things you should know...](#Know)
   - [Tools](#Tools)
 - [Introduction](#Introduction)
   - [Virtual DOM](#VirtualDOM)
@@ -20,6 +20,9 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Working in a function](#PropFunction)
     - [Working in a class](#PropClass)
     - [Result](#PropResult)
+  - [State](#State)
+  - [Lifecycle](#Lifecycle)
+    - [Change the state](#ChangeState)
 - [Some things to have in mind](#Things)
 
 
@@ -29,12 +32,13 @@ I’m writing this because of **two reasons**:
 2. I consider most tutorials to be very slow and I like going fast and straight to action, so here you will see little text just to know what is going on. Because of this I will mention some features I will not be using because I consider them unnecesary, if you want you can research them on your own.
 
 
-### <a name="Know">You should know...</a>
+### <a name="Know">Things you should know...</a>
 I assume you already know basic HTML and CSS, and have a good knowledge of Javascript. If you don't, I recommend you study and learn those first because you will not understand this **fast** tutorial.
 
 
 ### <a name="Tools">Tools</a>
 - [codepen.io](https://codepen.io/LeWanderer/pen/rqBPqO): Codepen allows you to write HTML, CSS and Javascript while seeing the results. Here is the link for a React.js template I made, just fork it and work on your own while reading this tutorial C:
+- [React CDN](https://reactjs.org/docs/cdn-links.html): You can use React through it's CDN.
 
 
 # <a name="Introduction">Introduction</a>
@@ -59,23 +63,30 @@ Virtual DOM is an abstract, lightweight copy of DOM. It can be changed as and wh
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/JSX%20example%201.png?raw=true" alt="JSX Example 1">
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/JSX%20example%202.png?raw=true" alt="JSX Example 2">
 
-React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript. It is not necessary to use it but I recommend it as it makes your code more readable.
+React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript (but JSX is **NOT** HTML). It is not necessary to use it but I recommend it as it makes your code more readable.
 
 ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `However, because JSX is not valid JavaScript, JSX code must be compiled into JavaScript. The transpiler Babel is a popular tool for this process.` 
 
-**Note**: You can use Javascript inside HTML (JSX) writing {code} (example in second picture).
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Self-enclosing tags: An important way in which JSX differs from HTML is the idea of self-enclosing tags.` 
+
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Self-enclosing%20tags.png?raw=true" alt="Self-enclosing tag">
+
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Self-enclosing%20tags%20output.png?raw=true" alt="Self-enclosing tag output">
+
+
+**Note**: You can use Javascript inside HTML (JSX) writing {code} (example in second picture). If you don't understand the code above please don't panic and come back in a few minutes.
 
 
 # <a name="Basic">Basic</a>
 Building Blocks of ReactJS
 A typical ReactJS program constitutes:
 - Components (Next section!).
-- Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the official document they talk more about them, but I consider them a waste of time so I’m not gonna cover them.
+- Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the official documentation they talk more about them, but I consider them a waste of time so I’m not gonna cover them.
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
 
 - Props
-- States
-- Functions
+- State
+- Lifecycle
 
 
 ### <a name="ReactComponent">What is a React Component?</a>
@@ -120,7 +131,23 @@ Inputs accepted by components.
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Prop%20output%20example.png?raw=true" alt="Prop output example">
 
 
+### <a name="State">State</a>
+State is similar to props, but it is private and fully controlled by the component. You have to add a constructor to the class in order to initialize the state.
 
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20example.png?raw=true" alt="Component with state example">
+
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20output.png?raw=true" alt="Component with state output">
+
+##### <a name="ChangeState">Change the state</a>
+
+<img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/How%20to%20change%20the%20state.png?raw=true" alt="Change state">
+
+
+### <a name="Lifecycle">Lifecycle</a>
+You can see an excelent example of lifecycle in [this pen](https://codepen.io/gaearon/pen/amqdNA?editors=0010) (you should be able to understand it). There are **two** important methods in every React Component: componentDidMount() and componentWillUnmount(). 
+
+- componentDidMount(): When the component is rendered on the website this method is triggered. In the example it creates a setInterval for tick().
+- componentWillUnmount(): If for some reason the component is removed from the DOM, this method will be triggered. In the example clears the interval created by componentDidMount().
 
 
 # <a name="Things">Some things to have in mind</a>
@@ -136,7 +163,7 @@ Inputs accepted by components.
   
   - CSS Modules:
   <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Modules.png?raw=true" alt="Styling by inline-styling">
-  
+ 
   - Styled components:
   <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Styled-components.png?raw=true" alt="Styling by styled components">
   
