@@ -34,7 +34,7 @@ Are you an impatient student like me? This is the React tutorial for you.
 # <a name="Before">Before we start...</a>
 I’m writing this because of **two reasons**:
 1. The first is to ensure I know React so well that I can write a tutorial.
-2. I consider most tutorials to be very slow and I like going fast and straight to action, so here you will see little text just to know what is going on. Because of this I will mention some features I will not be using because I consider them unnecesary, if you want you can research them on your own.
+2. I consider most tutorials to be very slow and I like going fast and straight to action, so here you will see little text just to know what is going on. Because of this I will mention some features I won't cover because I consider them [unnecesary](#ExtraInfo).
 
 
 ### <a name="Know">Things you should know...</a>
@@ -43,12 +43,11 @@ I assume you already know basic HTML and CSS, and have a good knowledge of Javas
 
 ### <a name="Tools">Tools</a>
 - [codepen.io](https://codepen.io/LeWanderer/pen/rqBPqO): Codepen allows you to write HTML, CSS and Javascript while seeing the results. Here is the link for a React.js template I made, just fork it and work on your own while reading this tutorial C:
-- [React CDN](https://reactjs.org/docs/cdn-links.html): You can use React through it's CDN.
+- [React CDN](https://reactjs.org/docs/cdn-links.html): You can use React through it's [CDN](#CDN).
 
 
 # <a name="Introduction">Introduction</a>
 React.js is an Open Source library developed by Facebook Developers, for building User Interfaces (UI). React makes user interfaces very easy to build by cutting each page into pieces. We call these pieces **components**.
-
 
 <p align="center">
   <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/components.png?raw=true" alt="Google components">
@@ -101,7 +100,7 @@ React uses a syntax extension of JavaScript called JSX that allows you to write 
 
 A typical ReactJS program constitutes:
 - [Components](#ReactComponent).
-- 
+- [Elements](#Elements) will not be covered here.
 - [Props](#Props).
 - [State](#State).
 - [Lifecycle](#Lifecycle).
@@ -217,10 +216,13 @@ You can see an excelent example of lifecycle in [this pen](https://codepen.io/ga
 # <a name="ExtraInfo">Extra information</a>
 If you are here it means there are some concepts you probably don't know. I don't want you to waste time searching them, so here they are.
 
-- Elements: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the [official documentation](https://reactjs.org/docs/rendering-elements.html) they talk more about them, but I consider it is a waste of time because you will be using **Class Components** most of the time.
+- <a name="Elements">Elements</a>: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the [official documentation](https://reactjs.org/docs/rendering-elements.html) they talk more about them, but I consider it is a waste of time because you will be using **Class Components** most of the time.
 <p align="center">
   <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
 </p>
+
+- <a name="CDN">CDN</a> (Content Delivery Network): Geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. The popularity of CDN services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon. 
+A properly configured CDN may also help protect websites against some common malicious attacks, such as Distributed Denial of Service (DDOS) attacks. 
 
 
 
