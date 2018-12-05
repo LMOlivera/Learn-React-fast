@@ -22,6 +22,7 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Result](#PropResult)
   - [State](#State)
   - [Lifecycle](#Lifecycle)
+    - [Change the state](#ChangeState)
 - [Some things to have in mind](#Things)
 
 
@@ -137,7 +138,7 @@ State is similar to props, but it is private and fully controlled by the compone
 
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20output.png?raw=true" alt="Component with state output">
 
-##### <a name="ChangeState">Change state</a>
+##### <a name="ChangeState">Change the state</a>
 
 <img align="middle" src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/How%20to%20change%20the%20state.png?raw=true" alt="Change state">
 
