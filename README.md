@@ -25,7 +25,7 @@ Are you an impatient student like me? This is the React tutorial for you.
     - [Working in a class](#PropClass)
     - [Result](#PropResult)
   - [State](#State)
-    - [Change the state](#ChangeState)
+    - [Changing the state](#ChangeState)
   - [Lifecycle](#Lifecycle)
 - [Some things to have in mind](#Things)
 - [Extra information](#ExtraInfo)
@@ -174,7 +174,7 @@ State is similar to props, but it is private and fully controlled by the compone
 </p>
 
 
-##### <a name="ChangeState">Change the state</a>
+##### <a name="ChangeState">Changing the state</a>
 <p align="center">
   <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/How%20to%20change%20the%20state.png?raw=true" alt="Change state">
 </p>
