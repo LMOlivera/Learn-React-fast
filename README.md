@@ -54,7 +54,7 @@ React.js is an Open Source library developed by Facebook Developers, for buildin
 </p>
 
 
-React is fairly easy to understand and at this moment has an excellent reputation and a great community. It supports ES6 and can perform client-side as well as server side rendering.
+React is fairly easy to understand and at this moment has an excellent reputation and a great community. It supports [ES6](#ES6) and can perform [client-side as well as server-side rendering](#CSSR).
 
 **Note:** Represents View in Model-View-Controller architectural pattern, that means you will need more tools in the future to cover the Model and Controller part.
 
@@ -224,6 +224,9 @@ If you are here it means there are some concepts you probably don't know. I don'
 - <a name="CDN">CDN</a> (Content Delivery Network): Geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. The popularity of CDN services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon. 
 A properly configured CDN may also help protect websites against some common malicious attacks, such as Distributed Denial of Service (DDOS) attacks. 
 
+- <a name="ES6">ECMAScript6</a>: ECMA (European Computer Manufacturers Association) is an organization dedicated to define the standard for Javascript. ES6 is the latest update of it, which includes a lot of improvements like "let" and "const" variable, arrow functions, spread operator, etc. I recommend you investigate it well because it adds a lot of extra functionality to Javascript.
+
+- <a name="CSSR">Client-side/Server-side rendering</a>: This means who is going to be in charge of the rendering of the webpage. Thanks to the variety of Frontend Frameworks we usually do client-side rendering (everything is handled by your web browser). This doesn't mean we don't use Server-side anymore (in this case the server had to do everything, often slowing things down).
 
 
 
