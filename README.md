@@ -192,22 +192,27 @@ You can see an excelent example of lifecycle in [this pen](https://codepen.io/ga
   - However, you can do this by binding a Parent function to the Child.
 - Keep in mind you can style components in four ways:
 
-  - You can give JSX a className (you can't use "class" because it is not HTML, it's JSX) to select it from CSS:
+  - You can give JSX a className (you can't use "class" because it is not HTML, it's JSX) to select it from CSS: This is the way everyone styles components when learning React. However, one issue that will arise you begin adding more components lies in the naming of your components a all style rules declared are globally scoped. This is a problem where, for example, you had two elements with the same name, created by either you or your teammate.
+  
   <p align="center">
     <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Stylesheet.png?raw=true" alt="Styling by Stylesheet">
   </p>
     
-  - Inline styling:
+  - Inline styling: One thing to take into consideration is that it is an object, so that means no dashes (e.g. font-weight) as in regular CSS. The style properties are written using camelCase. So font-weight will be fontWeight and so on. Conditional styling is also possible here. 
+  CONS: With this method, pseudo selectors like :hover as well as media queries can be used when there are only like 2 or 3 properties that doesn’t require the use of media queries or pseudo selectors, and/or in situations where there will be a need for conditional styling.
+  
   <p align="center">
     <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Inline%20styling.png?raw=true" alt="Styling by inline-styling">
   </p>
     
-  - CSS Modules:
+  - CSS Modules: CSS Modules are very similar to writing CSS in external stylesheets (as in the first method). The only difference is that the styles are locally scoped unlike with traditional external stylesheets. This means that style rules won’t clash together or overwrite each other. You basically use the same methods as you would normally use when styling components using traditional CSS. It also allows you to use all the nice methodolgies like BEM. You can read more about it here: [CSS Modules](https://github.com/css-modules/css-modules).
+  
   <p align="center">
     <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Modules.png?raw=true" alt="Styling by inline-styling">
   </p>
    
-  - Styled components:
+  - Styled components: This is considered a bad practice, you shouldn't mix Javascript with CSS.
+  
   <p align="center">
     <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Styled-components.png?raw=true" alt="Styling by styled components">
   </p>
