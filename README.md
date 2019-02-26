@@ -2,7 +2,7 @@
 Are you an impatient student like me? This is the React tutorial for you.
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/reactjs.png?raw=true" alt="Google components">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/reactjs.png" alt="Google components">
 </p>
 
 
@@ -42,7 +42,7 @@ I assume you already know basic HTML and CSS, and have a good knowledge of Javas
 
 
 ### <a name="Tools">Tools</a>
-- [codepen.io](https://codepen.io/LeWanderer/pen/rqBPqO): Codepen allows you to write HTML, CSS and Javascript while seeing the results. Here is the link for a React.js template I made, just fork it and work on your own while reading this tutorial C:
+- [codepen.io](https://codepen.io/LMOlivera/pen/rqBPqO): Codepen allows you to write HTML, CSS and Javascript while seeing the results. Here is the link for a React.js template I made, just fork it and work on your own while reading this tutorial C:
 - [React CDN](https://reactjs.org/docs/cdn-links.html): You can use React through it's [CDN](#CDN).
 
 
@@ -50,7 +50,7 @@ I assume you already know basic HTML and CSS, and have a good knowledge of Javas
 React.js is an Open Source library developed by Facebook Developers, for building User Interfaces (UI). React makes user interfaces very easy to build by cutting each page into pieces. We call these pieces **components**.
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/components.png?raw=true" alt="Google components">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/components.png" alt="Google components">
 </p>
 
 
@@ -62,7 +62,7 @@ React is fairly easy to understand and at this moment has an excellent reputatio
 ### <a name="VirtualDOM">Virtual DOM</a>
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/DOM%20and%20Virtual%20DOM.png?raw=true" alt="DOM and Virtual DOM comparison">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/DOM%20and%20Virtual%20DOM.png" alt="DOM and Virtual DOM comparison">
 </p>
 
 
@@ -74,20 +74,20 @@ Virtual DOM is an abstract, lightweight copy of DOM. It can be changed as and wh
 ### <a name="JSX">JSX</a>
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/JSX%20example%201.png?raw=true" alt="JSX Example 1">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/JSX%20example%202.png?raw=true" alt="JSX Example 2">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/JSX%20example%201.png" alt="JSX Example 1">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/JSX%20example%202.png" alt="JSX Example 2">
 </p>
 
 
 React uses a syntax extension of JavaScript called JSX that allows you to write HTML directly within JavaScript (but JSX is **NOT** HTML). It is not necessary to use it but I recommend it as it makes your code more readable.
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `However, because JSX is not valid JavaScript, JSX code must be compiled into JavaScript. The transpiler Babel is a popular tool for this process.` 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) However, because JSX is not valid JavaScript, JSX code must be compiled into JavaScript. The [transpiler](#ExtraInfo) Babel is a popular tool for this process. 
 
-![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `Self-enclosing tags: An important way in which JSX differs from HTML is the idea of self-enclosing tags.` 
+![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Self-enclosing tags: An important way in which JSX differs from HTML is the idea of self-enclosing tags.
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Self-enclosing%20tags.png?raw=true" alt="Self-enclosing tag">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Self-enclosing%20tags%20output.png?raw=true" alt="Self-enclosing tag output">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Self-enclosing%20tags.png" alt="Self-enclosing tag">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Self-enclosing%20tags%20output.png" alt="Self-enclosing tag output">
 </p>
 
 
@@ -113,15 +113,15 @@ Javascript function/class that represents a piece of a webpage. To build a page,
 ##### <a name="FunctionComponent">Function component</a>
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20component%201.png?raw=true" alt="Function component example 1">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20component%202.png?raw=true" alt="Function component example 2">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Function%20component%201.png" alt="Function component example 1">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Function%20component%202.png" alt="Function component example 2">
 </p>
 
 
 ##### <a name="ClassComponent">Class component</a>
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Class%20component.png?raw=true" alt="Function component example 1">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Class%20component.png" alt="Function component example 1">
 </p>
 
 
@@ -130,13 +130,13 @@ If we call the OurFirstComponent() function we’ll get back a bit of JSX. We ca
 
 ##### <a name="InputExample">Input example</a>
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/ReactDOM.render%20example.png?raw=true" alt="ReactDOM.render() example">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/ReactDOM.render%20example.png" alt="ReactDOM.render() example">
 </p>
 
 
 ##### <a name="OutputExample">Output example</a>
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/ReactDOM.render%20test%20result.png?raw=true" alt="ReactDOM.render() result">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/ReactDOM.render%20test%20result.png" alt="ReactDOM.render() result">
 </p>
 
 
@@ -149,19 +149,19 @@ Inputs accepted by components.
 
 ##### <a name="PropFunction">Working in a function</a>
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Function%20prop%20example.png?raw=true" alt="Function prop example">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Function%20prop%20example.png" alt="Function prop example">
 </p>
 
 
 ##### <a name="PropClass">Working in a class</a>
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Class%20prop%20example.png?raw=true" alt="Class prop example">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Class%20prop%20example.png" alt="Class prop example">
 </p>
 
 
 ##### <a name="PropResult">Result</a>
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Prop%20output%20example.png?raw=true" alt="Prop output example">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Prop%20output%20example.png" alt="Prop output example">
 </p>
 
 
@@ -169,14 +169,14 @@ Inputs accepted by components.
 State is similar to props, but it is private and fully controlled by the component. You have to add a constructor to the class in order to initialize the state.
 
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20example.png?raw=true" alt="Component with state example">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Component%20with%20state%20output.png?raw=true" alt="Component with state output">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Component%20with%20state%20example.png" alt="Component with state example">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Component%20with%20state%20output.png" alt="Component with state output">
 </p>
 
 
 ##### <a name="ChangeState">Changing the state</a>
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/How%20to%20change%20the%20state.png?raw=true" alt="Change state">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/How%20to%20change%20the%20state.png" alt="Change state">
 </p>
 
 
@@ -195,26 +195,26 @@ You can see an excelent example of lifecycle in [this pen](https://codepen.io/ga
   - You can give JSX a className (you can't use "class" because it is not HTML, it's JSX) to select it from CSS: This is the way everyone styles components when learning React. However, one issue that will arise you begin adding more components lies in the naming of your components a all style rules declared are globally scoped. This is a problem where, for example, you had two elements with the same name, created by either you or your teammate.
   
   <p align="center">
-    <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Stylesheet.png?raw=true" alt="Styling by Stylesheet">
+    <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Styling%20components%20-%20CSS%20Stylesheet.png" alt="Styling by Stylesheet">
   </p>
     
   - Inline styling: One thing to take into consideration is that it is an object, so that means no dashes (e.g. font-weight) as in regular CSS. The style properties are written using camelCase. So font-weight will be fontWeight and so on. Conditional styling is also possible here. 
   CONS: With this method, pseudo selectors like :hover as well as media queries can be used when there are only like 2 or 3 properties that doesn’t require the use of media queries or pseudo selectors, and/or in situations where there will be a need for conditional styling.
   
   <p align="center">
-    <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Inline%20styling.png?raw=true" alt="Styling by inline-styling">
+    <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Styling%20components%20-%20Inline%20styling.png" alt="Styling by inline-styling">
   </p>
     
   - CSS Modules: CSS Modules are very similar to writing CSS in external stylesheets (as in the first method). The only difference is that the styles are locally scoped unlike with traditional external stylesheets. This means that style rules won’t clash together or overwrite each other. You basically use the same methods as you would normally use when styling components using traditional CSS. It also allows you to use all the nice methodolgies like BEM. You can read more about it here: [CSS Modules](https://github.com/css-modules/css-modules).
   
   <p align="center">
-    <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20CSS%20Modules.png?raw=true" alt="Styling by inline-styling">
+    <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Styling%20components%20-%20CSS%20Modules.png" alt="Styling by inline-styling">
   </p>
    
   - Styled components: This is considered a bad practice, you shouldn't mix Javascript with CSS.
   
   <p align="center">
-    <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Styling%20components%20-%20Styled-components.png?raw=true" alt="Styling by styled components">
+    <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Styling%20components%20-%20Styled-components.png" alt="Styling by styled components">
   </p>
 
 
@@ -223,7 +223,7 @@ If you are here it means there are some concepts you probably don't know. I don'
 
 - <a name="Elements">Elements</a>: An element describes what you want to see on the screen. Unlike browser DOM elements, React elements are plain objects, and are cheap to create. In the [official documentation](https://reactjs.org/docs/rendering-elements.html) they talk more about them, but I consider it is a waste of time because you will be using **Class Components** most of the time.
 <p align="center">
-  <img src="https://github.com/LeWanderer/Learn-React-fast/blob/draft/images/Element%20example.png?raw=true" alt="Element example">
+  <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/Element%20example.png" alt="Element example">
 </p>
 
 - <a name="CDN">CDN</a> (Content Delivery Network): Geographically distributed group of servers which work together to provide fast delivery of Internet content. A CDN allows for the quick transfer of assets needed for loading Internet content including HTML pages, javascript files, stylesheets, images, and videos. The popularity of CDN services continues to grow, and today the majority of web traffic is served through CDNs, including traffic from major sites like Facebook, Netflix, and Amazon. 
@@ -233,5 +233,5 @@ A properly configured CDN may also help protect websites against some common mal
 
 - <a name="CSSR">Client-side/Server-side rendering</a>: This means who is going to be in charge of the rendering of the webpage. Thanks to the variety of Frontend Frameworks we usually do client-side rendering (everything is handled by your web browser). This doesn't mean we don't use Server-side anymore (in this case the server had to do everything, often slowing things down).
 
-
+- <a name="Transpiler">Transpiler</a>: Tool that reads code written in one programming language to produce equivalent code in another.
 
