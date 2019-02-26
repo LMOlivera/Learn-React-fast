@@ -181,10 +181,18 @@ State is similar to props, but it is private and fully controlled by the compone
 
 
 ### <a name="Lifecycle">Lifecycle</a>
+***WORK IN PROGRESS***
 You can see an excelent example of lifecycle in [this pen](https://codepen.io/gaearon/pen/amqdNA?editors=0010) (you should be able to understand it). There are **two** important methods in every React Component: componentDidMount() and componentWillUnmount(). 
 
 - componentDidMount(): When the component is rendered on the website this method is triggered. In the example it creates a setInterval for tick().
+- shouldComponentUpdate():
+- componentDidUpdate():
 - componentWillUnmount(): If for some reason the component is removed from the DOM, this method will be triggered. In the example clears the interval created by componentDidMount().
+- static getDerivedStateFromProps():
+- getSnapshotBeforeUpdate():
+- UNSAFE_componentWillMount():
+- UNSAFE_componentWillReceiveProps():
+- UNSAFE_componentWillUpdate():
 
 
 # <a name="Things">Some things to have in mind</a>
