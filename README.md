@@ -181,18 +181,25 @@ State is similar to props, but it is private and fully controlled by the compone
 
 
 ### <a name="Lifecycle">Lifecycle</a>
-***WORK IN PROGRESS***
-You can see an excelent example of lifecycle in [this pen](https://codepen.io/gaearon/pen/amqdNA?editors=0010) (you should be able to understand it). There are **two** important methods in every React Component: componentDidMount() and componentWillUnmount(). 
+You can see an excelent example of lifecycle in [this pen](https://codepen.io/gaearon/pen/amqdNA?editors=0010) (you should be able to understand it). 
 
-- componentDidMount(): When the component is rendered on the website this method is triggered. In the example it creates a setInterval for tick().
-- shouldComponentUpdate():
-- componentDidUpdate():
+<p align="center">
+    <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/React%20Lifecycle.jpeg" alt="React Lifecycle">
+  </p>
+  
+- componentDidMount(): When the component is rendered on the website this method is triggered. In the example it creates a setInterval for tick(). Great place to initiate network requests. Keep in mind that using setState() in componentDidMount() will cause a re-render of the component, affecting performance.
 - componentWillUnmount(): If for some reason the component is removed from the DOM, this method will be triggered. In the example clears the interval created by componentDidMount().
-- static getDerivedStateFromProps():
-- getSnapshotBeforeUpdate():
-- UNSAFE_componentWillMount():
-- UNSAFE_componentWillReceiveProps():
-- UNSAFE_componentWillUpdate():
+- shouldComponentUpdate(): Invoked whenever new props or state is being received by the component. If you consider that props/state don't need to update the component you should return false. Otherwise, true.
+- componentDidUpdate(): It allows you to interact with the DOM when the component has been updated.
+- static getDerivedStateFromProps(): His only purpose is to enable a component to update its state depending of changes in his props.
+- getSnapshotBeforeUpdate(): Called just before the most newly rendered output is attached to the DOM. It returns a snapshot value or null and this returned value is always passed as a parameter to componentDidUpdate().
+
+Legacy lifecycle methods:
+Here are old methods that even the [official documentation of React](https://reactjs.org/docs/react-component.html#legacy-lifecycle-methods) encourages not to use.
+
+- UNSAFE_componentWillMount(): Called before the component is being mounted. If you need to set the initial state of a component, use constructor() instead. If you plan to use any functions that create any side effects or subscriptions, use componentDidMount() instead.
+- UNSAFE_componentWillReceiveProps(): It creates bugs and inconsistencies. If you need to fetch data or create an animation, you should rather use componentDidMount().
+- UNSAFE_componentWillUpdate(): Unless shouldComponentUpdate() returns false, this method is being triggered when new props or state are being received. You can use UNSAFE_componentWillUpdate() to execute preparation before an update. Do not use this.setState()inside it. Use componentDidMount() instead.
 
 
 # <a name="Things">Some things to have in mind</a>
