@@ -5,6 +5,7 @@ Are you an impatient student like me? This is the React tutorial for you.
   <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/reactjs.png" alt="Google components">
 </p>
 
+**Disclaimer**: This was made with the combined knowledge I acquired from many tutorials, articles and videos. The images I use are not of my autorship.
 
 # Index
 - [Before we start](#Before)
