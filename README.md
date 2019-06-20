@@ -67,7 +67,7 @@ React is fairly easy to understand and at this moment has an excellent reputatio
 </p>
 
 
-Consider a page displaying a list containing 10 items and one is getting updated. DOM will rebuild the entire list making it work 10 times more than what is necessary.
+Consider a page displaying a list containing 10 items and one is getting updated. [DOM](#DOM) will rebuild the entire list making it work 10 times more than what is necessary.
 
 Virtual DOM is an abstract, lightweight copy of DOM. It can be changed as and when we want and then can be saved to the real DOM. Whenever a change occurs, Virtual DOM efficiently rerenders the DOM. It is much faster than DOM. It has the same properties as a real DOM object.
 
@@ -248,6 +248,8 @@ A properly configured CDN may also help protect websites against some common mal
 - <a name="ES6">ECMAScript6</a>: ECMA (European Computer Manufacturers Association) is an organization dedicated to define the standard for Javascript. ES6 is the latest update of it, which includes a lot of improvements like "let" and "const" variable, arrow functions, spread operator, etc. I recommend you investigate it well because it adds a lot of extra functionality to Javascript.
 
 - <a name="CSSR">Client-side/Server-side rendering</a>: This means who is going to be in charge of the rendering of the webpage. Thanks to the variety of Frontend Frameworks we usually do client-side rendering (everything is handled by your web browser). This doesn't mean we don't use Server-side anymore (in this case the server had to do everything, often slowing things down).
+
+- <a name="DOM">DOM (Document Object Model)</a>: It defines the logical structure of documents (HTML) and the way a document is accessed and manipulated. With the Document Object Model, programmers can build documents, navigate their structure, and add, modify, or delete elements and content.
 
 - <a name="Transpiler">Transpiler</a>: Tool that reads code written in one programming language to produce equivalent code in another.
 
