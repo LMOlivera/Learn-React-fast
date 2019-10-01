@@ -204,10 +204,12 @@ Here are old methods that even the [official documentation of React](https://rea
 - UNSAFE_componentWillUpdate(): Unless shouldComponentUpdate() returns false, this method is being triggered when new props or state are being received. You can use UNSAFE_componentWillUpdate() to execute preparation before an update. Do not use this.setState()inside it. Use componentDidMount() instead.
 
 # <a name="Hooks">Hooks</a>
-Hooks let you use state and other React features without writing a class. It is a really new addition.
+Hooks let you use state and other React features without writing classes. It is a really new addition.
 <p align="center">
     <img src="https://github.com/LMOlivera/Learn-React-fast/blob/draft/images/Hook%20example.PNG" alt="Hooks example">
   </p>
+
+Hooks are difficult for some people to understand, so you should not worry about them for now. I suggest you try to understand them in the future, when you have more experience with React.
 
 # <a name="Things">Some things to have in mind</a>
 - It is consider a bad practice to change a Parents state from Child. Try to think how to manage Parents and Childs before programming, it will save you a lot of time.
