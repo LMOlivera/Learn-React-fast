@@ -5,7 +5,7 @@ Are you an impatient student like me? This is the React tutorial for you.
   <img src="https://github.com/LMOlivera/Learn-React-fast/blob/master/images/reactjs.png" alt="Google components">
 </p>
 
-**Disclaimer**: This was made with the combined knowledge I acquired from many tutorials, articles and videos. The images I use are not of my autorship.
+**Disclaimer**: This was made with the combined knowledge I acquired from many tutorials, articles and videos. Not all the images I use are of my autorship.
 
 # Index
 - [Before we start](#Before)
@@ -28,6 +28,7 @@ Are you an impatient student like me? This is the React tutorial for you.
   - [State](#State)
     - [Changing the state](#ChangeState)
   - [Lifecycle](#Lifecycle)
+- [Hooks](#Hooks)
 - [Some things to have in mind](#Things)
 - [Extra information](#ExtraInfo)
 
@@ -202,6 +203,11 @@ Here are old methods that even the [official documentation of React](https://rea
 - UNSAFE_componentWillReceiveProps(): It creates bugs and inconsistencies. If you need to fetch data or create an animation, you should rather use componentDidMount().
 - UNSAFE_componentWillUpdate(): Unless shouldComponentUpdate() returns false, this method is being triggered when new props or state are being received. You can use UNSAFE_componentWillUpdate() to execute preparation before an update. Do not use this.setState()inside it. Use componentDidMount() instead.
 
+# <a name="Hooks">Hooks</a>
+Hooks let you use state and other React features without writing a class. It is a really new addition.
+<p align="center">
+    <img src="https://github.com/LMOlivera/Learn-React-fast/blob/draft/images/Hook%20example.PNG" alt="Hooks example">
+  </p>
 
 # <a name="Things">Some things to have in mind</a>
 - It is consider a bad practice to change a Parents state from Child. Try to think how to manage Parents and Childs before programming, it will save you a lot of time.
